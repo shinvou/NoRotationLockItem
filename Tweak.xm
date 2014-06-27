@@ -19,8 +19,7 @@
 -(void)_updateRotationLockItem
 {
 	%orig;
-
-    [[%c(SBStatusBarStateAggregator) sharedInstance] _setItem:17 enabled:NO];
+	[[%c(SBStatusBarStateAggregator) sharedInstance] _setItem:17 enabled:NO];
 }
 
 %end
